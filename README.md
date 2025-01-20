@@ -3,7 +3,7 @@
 ### Overview
 BackupHero is a utility tool designed to automate the process of backing up specific databases. This application schedules and performs backups, ensuring data is securely saved and retained according to specified criteria.
 
-## Prerequisites
+### Prerequisites
 
 To run BackupHeroApp, please ensure the following prerequisites are installed on your system:
 
@@ -11,7 +11,6 @@ To run BackupHeroApp, please ensure the following prerequisites are installed on
 2. **.NET Framework**: .NET Framework 4.7.2 or later
 3. **SQL Server**: SQL Server 2005
 4. **Disk Space**: Sufficient disk space to accommodate backups (at least 2.5 times the size of the databases being backed up)
-
 
 ### Installation
 
