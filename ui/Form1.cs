@@ -303,6 +303,11 @@ namespace BackupHeroApp.UI
                     TaskDefinition td = ts.NewTask();
                     td.RegistrationInfo.Description = $"Backup for database {databaseName} (Max Copies: {maxCopies})";
 
+                    // Set the principal to run with highest privileges
+                    td.Principal.UserId = "SYSTEM"; 
+                    td.Principal.LogonType = TaskLogonType.ServiceAccount; 
+                    td.Principal.RunLevel = TaskRunLevel.Highest;
+
                     DailyTrigger dailyTrigger = new DailyTrigger
                     {
                         StartBoundary = DateTime.Today + backupTime.TimeOfDay
