@@ -1,0 +1,37 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package files
+packages/
+node_modules/
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+
+# Generated files
+*.gen.cs
+*.designer.cs
+
+# Configuration files
+appsettings.json
